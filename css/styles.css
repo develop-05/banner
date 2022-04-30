@@ -21,6 +21,12 @@ a {
     text-decoration: none;
 }
 
+
+.pay{
+    display: flex;
+    justify-content: center;
+}
+/* 
 .banner{
     display: flex;
     justify-content: center;
@@ -289,4 +295,4 @@ a {
     .footer__text{
         font-size: 10px;
     }
-}
+} */
