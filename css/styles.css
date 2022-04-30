@@ -27,6 +27,10 @@ a {
     margin-top: 130px;
 }
 
+.banner__part:not(:last-child)  {
+    margin-right: 40px;
+}
+
 .banner__subtitle{
     color: #954AEF;
     font-weight: 700;
@@ -90,7 +94,7 @@ a {
 
 .books{
     margin-top: 40px;
-    margin-bottom: 135px;
+    margin-bottom: 85px;
     display: flex;
 }
 
@@ -176,6 +180,10 @@ a {
     .banner{
         flex-wrap: wrap;
         margin-top: 60px;
+    }
+
+    .banner__part:not(:last-child)  {
+        margin-right: 0px;
     }
 
     .banner__part:last-child{
