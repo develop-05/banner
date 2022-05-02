@@ -283,6 +283,10 @@ a {
         justify-content: center;
     }
 
+    .footer__block2{
+        margin-right: 0px;
+    }
+
     .footer__icon{
         margin-right: 10px;
     }
@@ -299,5 +303,6 @@ a {
 
     .footer__text{
         font-size: 10px;
+        text-align: center;
     }
 }
