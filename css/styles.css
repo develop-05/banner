@@ -25,6 +25,8 @@ a {
     display: flex;
     justify-content: space-between;
     margin-top: 130px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .banner__part:not(:last-child)  {
@@ -140,10 +142,13 @@ a {
 
 .fone__banner{
     max-width: 100%;
+    transform: scale(1.05);
 }
 
 .footer {
     margin-bottom: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
     display: flex;
     justify-content: space-between;
 }
@@ -174,10 +179,11 @@ a {
     margin-right: 10px;
 }
 
-@media(max-width: 1080px) {
+@media(max-width: 1040px) {
     .banner{
         flex-wrap: wrap;
         margin-top: 60px;
+        justify-content: center;
     }
 
     .banner__part:not(:last-child)  {
@@ -214,6 +220,13 @@ a {
         flex-wrap: wrap;
         justify-content: center;
         margin-bottom: 40px;
+    }
+    .footer {
+        justify-content: center;
+    }
+
+    .footer__block2{
+        margin-right: 80px;
     }
 }
 
