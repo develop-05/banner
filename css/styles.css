@@ -184,6 +184,16 @@ a {
         justify-content: center;
     }
 
+    .link__app{
+        padding-top: 9px;
+        line-height: 0;
+    }
+
+    .link__app span {
+        position: relative;
+        bottom: 2px;
+    }
+
     .banner__part:not(:last-child)  {
         margin-right: 0px;
     }
